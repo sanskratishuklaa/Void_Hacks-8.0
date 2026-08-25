@@ -7,6 +7,7 @@ import Prizes from "./components/Prizes";
 import Benefits from "./components/Benefits";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 import Location from "./components/Location";
 import CyberBackground from "./effects/CyberBackground";
 
@@ -26,6 +27,7 @@ function App() {
         <FAQ />
         <Location/>
         <CTA />
+        <Footer/>
       </main>
     </>
   );

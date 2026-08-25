@@ -1,3 +1,4 @@
+import { SpaceIcon } from "lucide-react";
 import React from "react";
 
 const Location = () => {

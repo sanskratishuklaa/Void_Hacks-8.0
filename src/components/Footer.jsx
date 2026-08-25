@@ -1,244 +1,171 @@
-import {
-  ArrowUpRight,
-  Mail,
-  ShieldCheck,
-} from "lucide-react";
+import React from "react";
 
-const navigationLinks = [
-  { name: "About", href: "#about" },
-  { name: "Tracks", href: "#tracks" },
-  { name: "Timeline", href: "#timeline" },
-  { name: "Prizes", href: "#prizes" },
-  { name: "FAQ", href: "#faq" },
-];
-
-const eventLinks = [
-  { name: "Register", href: "#register" },
-  { name: "Get Updates", href: "#updates" },
-  { name: "Contact", href: "#contact" },
-];
-
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="footer" id="contact">
+    <footer className="site-footer">
 
-      {/* Background grid */}
-      <div className="footer-grid" />
+      {/* TOP CTA */}
+      <div className="footer-cta">
+        <div>
+          <span className="footer-eyebrow">
+            READY TO ENTER THE VOID?
+          </span>
 
-      <div className="container">
-
-        {/* =====================================
-            MAIN FOOTER
-        ====================================== */}
-
-        <div className="footer-main">
-
-          {/* Brand */}
-          <div className="footer-brand">
-
-            <a
-              href="#home"
-              className="footer-logo"
-            >
-              <div className="footer-logo-mark">
-                V
-              </div>
-
-              <div>
-                <span className="footer-logo-name">
-                  VOID<span>HACK</span>
-                </span>
-
-                <small>
-                  CYBERSECURITY HACKATHON
-                </small>
-              </div>
-            </a>
-
-            <p>
-              A cybersecurity-focused hackathon where
-              technology, innovation, and digital defense
-              come together to solve real-world challenges.
-            </p>
-
-            <div className="footer-security-status">
-              <span className="footer-status-dot" />
-              SYSTEM ONLINE
-            </div>
-
-          </div>
-
-          {/* Navigation */}
-          <div className="footer-column">
-
-            <h3>
-              Navigation
-            </h3>
-
-            <nav aria-label="Footer navigation">
-              {navigationLinks.map((link) => (
-                <a
-                  href={link.href}
-                  key={link.name}
-                >
-                  {link.name}
-                  <ArrowUpRight size={12} />
-                </a>
-              ))}
-            </nav>
-
-          </div>
-
-          {/* Event */}
-          <div className="footer-column">
-
-            <h3>
-              Event
-            </h3>
-
-            <nav aria-label="Event links">
-              {eventLinks.map((link) => (
-                <a
-                  href={link.href}
-                  key={link.name}
-                >
-                  {link.name}
-                  <ArrowUpRight size={12} />
-                </a>
-              ))}
-            </nav>
-
-          </div>
-
-          {/* Contact */}
-          <div className="footer-column footer-contact">
-
-            <h3>
-              Contact
-            </h3>
-
-            <p>
-              Have a question about VOID HACK?
-            </p>
-
-            <a
-              href="mailto:[OFFICIAL EMAIL]"
-              className="footer-email"
-            >
-              <Mail size={15} />
-              [OFFICIAL EMAIL]
-            </a>
-
-            <span className="footer-placeholder-note">
-              Official contact details to be updated.
-            </span>
-
-          </div>
-
-        </div>
-
-        {/* =====================================
-            COLLABORATION
-        ====================================== */}
-
-        <div className="footer-collaboration">
-
-          <div className="footer-collab-label">
-            <span />
-            IN COLLABORATION WITH
-          </div>
-
-          <div className="footer-collab-brands">
-
-            {/* VOID HACK */}
-            <div className="footer-organization">
-
-              <div className="footer-org-logo footer-org-logo-void">
-                V
-              </div>
-
-              <div>
-                <strong>
-                  VOID HACK
-                </strong>
-
-                <span>
-                  CYBERSECURITY HACKATHON
-                </span>
-              </div>
-
-            </div>
-
-            <div className="footer-collab-symbol">
-              ×
-            </div>
-
-            {/* Police */}
-            <div className="footer-organization">
-
-              <div className="footer-org-logo footer-org-logo-police">
-                IP
-              </div>
-
-              <div>
-                <strong>
-                  INDORE POLICE
-                </strong>
-
-                <span>
-                  COMMISSIONERATE
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-
-          <p className="footer-logo-note">
-            Official organization logos will be added
-            when supplied by the project organizers.
-          </p>
-
-        </div>
-
-        {/* =====================================
-            BOTTOM FOOTER
-        ====================================== */}
-
-        <div className="footer-bottom">
+          <h2>
+            Build. Defend. <span>Break.</span>
+          </h2>
 
           <p>
-            © 2026 VOID HACK. All rights reserved.
+            36 hours of cybersecurity, innovation, collaboration,
+            and real-world problem solving.
+          </p>
+        </div>
+
+        <a href="#register" className="footer-cta-button">
+          Register Now
+          <span>↗</span>
+        </a>
+      </div>
+
+
+      {/* MAIN FOOTER */}
+      <div className="footer-main">
+
+        {/* BRAND */}
+        <div className="footer-brand">
+
+          <a href="/" className="footer-logo">
+            <div className="footer-logo-mark">
+              V
+            </div>
+
+            <div>
+              <strong>VOIDHACK</strong>
+              <small>CYBERSECURITY HACKATHON</small>
+            </div>
+          </a>
+
+          <p>
+            A cybersecurity-focused hackathon where technology,
+            innovation, and digital defense come together to solve
+            real-world challenges.
           </p>
 
-          <div className="footer-bottom-links">
-
-            <a href="#privacy">
-              Privacy Policy
-            </a>
-
-            <a href="#terms">
-              Terms & Conditions
-            </a>
-
+          <div className="footer-status">
+            <span></span>
+            SYSTEM ONLINE
           </div>
 
-          <div className="footer-built">
+        </div>
 
-            <ShieldCheck size={13} />
 
-            <span>
-              BUILT FOR DIGITAL DEFENSE
-            </span>
+        {/* NAVIGATION */}
+        <div className="footer-column">
+          <h3>Explore</h3>
 
+          <a href="#about">About</a>
+          <a href="#tracks">Tracks</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#prizes">Prizes</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+
+        {/* EVENT */}
+        <div className="footer-column">
+          <h3>Event</h3>
+
+          <a href="#register">Register</a>
+          <a href="#location">Venue</a>
+          <a href="#contact">Contact</a>
+          <a href="#updates">Get Updates</a>
+        </div>
+
+
+        {/* CONTACT */}
+        <div className="footer-column footer-contact">
+          <h3>Contact</h3>
+
+          <p>
+            Have a question about VOID HACKS?
+          </p>
+
+          <a href="mailto:contact@voidhacks.in">
+            <span className="contact-icon">✉</span>
+            contact@voidhacks.in
+          </a>
+        </div>
+
+      </div>
+
+
+      {/* COLLABORATION */}
+      <div className="footer-collaboration">
+
+        <div className="collaboration-label">
+          <span></span>
+          IN COLLABORATION WITH
+        </div>
+
+        <div className="collaboration-logos">
+
+          <div className="partner">
+            <div className="partner-mark">
+              V
+            </div>
+
+            <div>
+              <strong>Shri Vaishnav Vidyapeeth Vishwavidyalya</strong>
+              <small>CYBERSECURITY HACKATHON</small>
+            </div>
           </div>
 
+          <div className="partner-divider">
+            ×
+          </div>
+
+          <div className="partner">
+            <div className="partner-mark police">
+              IP
+            </div>
+
+            <div>
+              <strong>INDORE POLICE</strong>
+              <small>COMMISSIONERATE</small>
+            </div>
+          </div>
+
+        </div>
+
+        <p className="partner-note">
+          Official organization logos will be added when supplied
+          by the project organizers.
+        </p>
+
+      </div>
+
+
+      {/* BOTTOM BAR */}
+      <div className="footer-bottom">
+
+        <span>
+          © 2026 VOID HACKS(). All rights reserved.
+        </span>
+
+        <div className="footer-legal">
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms & Conditions</a>
+        </div>
+
+        <div className="footer-security">
+          <span>◇</span>
+          BUILT FOR DIGITAL DEFENSE
         </div>
 
       </div>
 
     </footer>
   );
-}
+};
 
 export default Footer;

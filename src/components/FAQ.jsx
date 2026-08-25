@@ -80,13 +80,13 @@ function FAQ() {
             <div className="faq-help-card">
 
               <div className="faq-help-icon">
-                <HelpCircle size={20} />
+                <HelpCircle size={25} />
               </div>
 
               <div>
-                <span>
+                <strong>
                   STILL HAVE QUESTIONS?
-                </span>
+                </strong>
 
                 <strong>
                   Contact the organizing team.
