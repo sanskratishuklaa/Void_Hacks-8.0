@@ -38,7 +38,7 @@ function CTA() {
             <br />
             THE
             <span className="gradient-text">
-              {" "}DIGITAL BATTLEFIELD?
+              {"  "}DIGITAL BATTLEFIELD?
             </span>
           </h2>
 
@@ -61,11 +61,14 @@ function CTA() {
             </a>
 
             <a
-              href="#updates"
-              className="cta-secondary"
-            >
-              Get Updates
-            </a>
+            href="https://www.instagram.com/voidhacks8.0?igsi=MXAyNTRiNXAwOWg3MA%3D%3D"
+            className="nav-update-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Update
+          </a>
+
 
           </div>
 

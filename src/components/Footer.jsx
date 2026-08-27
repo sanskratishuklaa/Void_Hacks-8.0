@@ -1,4 +1,7 @@
 import React from "react";
+import voidhacksLogo from "../assets/voidhacks-logo.png";
+import svvvlogo from "../assets/svvv-logo.png";
+import ipcLogo from "../assets/ipc-logo.png";
 
 const Footer = () => {
   return (
@@ -36,7 +39,8 @@ const Footer = () => {
 
           <a href="/" className="footer-logo">
             <div className="footer-logo-mark">
-              V
+              <img src={voidhacksLogo} alt="VOID HACKS() 8.0" />
+              
             </div>
 
             <div>
@@ -92,7 +96,7 @@ const Footer = () => {
 
           <a href="mailto:contact@voidhacks.in">
             <span className="contact-icon">✉</span>
-            contact@voidhacks.in
+            Voidhacks@svvv.edu.in
           </a>
         </div>
 
@@ -111,12 +115,12 @@ const Footer = () => {
 
           <div className="partner">
             <div className="partner-mark">
-              V
+              <img src={svvvlogo} alt="VOID HACKS() 8.0" />
             </div>
 
             <div>
               <strong>Shri Vaishnav Vidyapeeth Vishwavidyalya</strong>
-              <small>CYBERSECURITY HACKATHON</small>
+              <small>Indore, Madhya Pradesh</small>
             </div>
           </div>
 
@@ -126,21 +130,16 @@ const Footer = () => {
 
           <div className="partner">
             <div className="partner-mark police">
-              IP
+              <img src={ipcLogo} alt="VOID HACKS() 8.0" />
             </div>
 
             <div>
-              <strong>INDORE POLICE</strong>
-              <small>COMMISSIONERATE</small>
+              <strong>INDORE POLICE COMMISSIONERATE</strong>
+              <small>Indore, Madhya Pradesh</small>
             </div>
           </div>
 
         </div>
-
-        <p className="partner-note">
-          Official organization logos will be added when supplied
-          by the project organizers.
-        </p>
 
       </div>
 

@@ -75,7 +75,7 @@ function Tracks() {
 
           <div className="section-eyebrow">
             <span className="eyebrow-line" />
-            CHOOSE YOUR BATTLEFIELD
+            ONE TRACK - CYBERSECURITY
           </div>
 
           <h2 className="section-title">
@@ -86,9 +86,9 @@ function Tracks() {
           </h2>
 
           <p className="section-description">
-            Explore cybersecurity domains designed to challenge
-            your technical thinking, creativity, and ability to
-            solve real-world problems.
+            Integrated cybersecurity domains designed to challenge
+    your technical thinking, strengthen your defensive skills,
+    and solve real-world digital security problems.
           </p>
 
         </div>
@@ -143,21 +143,6 @@ function Tracks() {
                   <strong>
                     {track.challenge}
                   </strong>
-
-                </div>
-
-                {/* Bottom */}
-                <div className="track-card-bottom">
-
-                  <span>
-                    EXPLORE TRACK
-                  </span>
-
-                  <div className="track-arrow">
-                    <ArrowUpRight
-                      size={17}
-                    />
-                  </div>
 
                 </div>
 

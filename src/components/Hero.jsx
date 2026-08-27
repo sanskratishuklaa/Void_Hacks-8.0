@@ -25,7 +25,7 @@ const stats = [
   },
   {
     icon: IndianRupee,
-    value: "1Lac+",
+    value: "1Lakh+",
     label: "Total Prize Pool",
   },
 ];
@@ -100,7 +100,7 @@ function Hero() {
         <div className="hero-badge">
           <span className="hero-badge-dot" />
 
-          <span>VERSION 8.0</span>
+          <span>VERSION 8.O</span>
 
           <span className="hero-badge-divider">•</span>
 
@@ -114,10 +114,8 @@ function Hero() {
         <div className="hero-brand">
           <h1 className="hero-title">
             <span className="hero-title-white">Void</span>
-
             <span className="hero-title-blue">Hacks</span>
-
-            <span className="hero-title-parentheses">( )</span>
+            <span className="hero-title-brackets">( )</span>
           </h1>
 
           <div className="hero-edition">
@@ -131,8 +129,8 @@ function Hero() {
 
         <p className="hero-description">
           A 36-hour national-level cybersecurity hackathon organized by SVVV and
-          SVIT, Indore — the eighth edition, built in collaboration with the
-          Indore Police Commissionerate.
+          SVIIT, Indore — the eighth edition, built in collaboration with the
+          <strong> INDORE POLICE.</strong>
         </p>
 
         {/* =====================================

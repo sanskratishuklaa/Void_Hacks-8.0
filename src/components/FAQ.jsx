@@ -89,12 +89,8 @@ function FAQ() {
                 </strong>
 
                 <strong>
-                  Contact the organizing team.
+                  voidhacks@svvv.edu.in
                 </strong>
-
-                <small>
-                  [OFFICIAL EMAIL]
-                </small>
               </div>
 
             </div>

@@ -24,10 +24,16 @@ const timelineData = {
           "Problem statements released; mentor introductions.",
       },
       {
-        time: "21:00",
+        time: "20:00",
         title: "Hacking Begins",
         description:
           "The 36-hour clock starts.",
+      },
+      {
+        time: "21:00",
+        title: "Mentor Session Round1",
+        description:
+          "Evaluation Round",
       },
     ],
   },
@@ -36,8 +42,14 @@ const timelineData = {
     label: "Day 2 · Oct 2",
     events: [
       {
+        time: "02:00",
+        title: "Mentor Round 2",
+        description:
+          "Progress checks with faculty and Commissionerate mentors.",
+      },
+      {
         time: "09:00",
-        title: "Mentor Round 1",
+        title: "Mentor Round 3",
         description:
           "Progress checks with faculty and Commissionerate mentors.",
       },
@@ -48,13 +60,19 @@ const timelineData = {
           "Teams submit a progress snapshot; feedback loop opens.",
       },
       {
-        time: "20:00",
-        title: "Cyber Talks",
+        time: "15:00",
+        title: "Mentor Round 4",
         description:
-          "Sessions from industry and law-enforcement cybersecurity practitioners.",
+          "Progress checks with faculty and Commissionerate mentors.",
       },
       {
-        time: "23:00",
+        time: "20:00",
+        title: "Mentor Round 5",
+        description:
+          "Progress checks with faculty and Commissionerate mentors.",
+      },
+      {
+        time: "24:00",
         title: "Midnight Build Push",
         description:
           "Snacks, music, and the last major sprint window.",
@@ -66,10 +84,10 @@ const timelineData = {
     label: "Day 3 · Oct 3",
     events: [
       {
-        time: "09:00",
-        title: "Hacking Ends",
+        time: "03:00",
+        title: "Mentor Round 6",
         description:
-          "Code freeze — submissions lock.",
+            "Decalaration of Finalist Teams"
       },
       {
         time: "10:30",
@@ -84,7 +102,7 @@ const timelineData = {
           "Shortlisted teams present to the full jury, including Commissionerate representatives.",
       },
       {
-        time: "16:30",
+        time: "15:00",
         title: "Closing & Prize Ceremony",
         description:
           "Winners announced. ABHEDYA closes.",

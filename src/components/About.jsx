@@ -7,24 +7,24 @@ import {
 
 const organizations = [
   {
-    short: "SV",
+    short: "SVVV",
     name: "Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)",
     description:
-      "Host institution, Indore, Madhya Pradesh — organizing VOID HACKS() since its first edition.",
+      "Indore, Madhya Pradesh — organizing VOID HACKS() since its first edition.",
     icon: University,
   },
   {
-    short: "SVIT",
+    short: "SVIIT",
     name: "Shri Vaishnav Institute of Information Technology (SVIIT)",
     description:
-      "Co-organizing institution, Indore, Madhya Pradesh — joint host for VOID HACKS() 8.0.",
+      "Host Institution — VOID HACKS( )8.O",
     icon: Building2,
   },
   {
     short: "IPC",
     name: "Indore Police Commissionerate",
     description:
-      "Official collaboration partner for VOID HACKS() 8.0 — ABHEDYA, contributing to cybersecurity and digital-safety challenges.",
+      "Official collaboration partner for VOID HACKS()8.O — ABHEDYA, contributing to cybersecurity and digital-safety challenges.",
     icon: ShieldCheck,
   },
 ];
@@ -65,7 +65,7 @@ function About() {
             <div className="about-copy">
 
               <p>
-                <strong>VOID HACKS()</strong> is a
+                <strong>VOID HACKS 8.O( )</strong> is a
                 cybersecurity-focused hackathon built around
                 innovation, problem-solving, and digital
                 defense.
