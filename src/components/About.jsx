@@ -65,7 +65,7 @@ function About() {
             <div className="about-copy">
 
               <p>
-                <strong>VOID HACKS 8.O( )</strong> is a
+                <strong>VOID HACKS()8.O</strong> is a
                 cybersecurity-focused hackathon built around
                 innovation, problem-solving, and digital
                 defense.
