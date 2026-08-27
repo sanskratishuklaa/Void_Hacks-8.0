@@ -6,7 +6,7 @@ const timelineData = {
     label: "Day 1 · Oct 1",
     events: [
       {
-        time: "16:00",
+        time: "17:30",
         title: "Registration & Check-in",
         description:
           "Team verification, kits, and campus access.",

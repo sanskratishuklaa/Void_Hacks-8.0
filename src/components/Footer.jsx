@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <strong>VOIDHACK</strong>
+              <strong>VOIDHACKS</strong>
               <small>CYBERSECURITY HACKATHON</small>
             </div>
           </a>
