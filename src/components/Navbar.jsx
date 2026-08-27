@@ -45,7 +45,10 @@ function Navbar() {
             Get Update
           </a>
 
-          <a href="#register" className="nav-register-btn">
+          <a
+            href="https://unstop.com/o/GdrkWD4?lb=5VvzCSm&utm_medium=Share&utm_source=voidhack2161&utm_campaign=Online_coding_challenge"
+            className="nav-register-btn"
+          >
             Register Now
             <ArrowUpRight size={16} strokeWidth={2} />
           </a>

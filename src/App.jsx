@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
+import Flashback from "./components/Flashback";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Tracks from "./components/Tracks";
@@ -20,6 +21,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Flashback />
         <Tracks />
         <Timeline />
         <Prizes />
